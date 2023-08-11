@@ -1,0 +1,30 @@
+export default {
+  name: 'testimonials',
+  title: 'Testimonials',
+  type: 'documents',
+  fields: [
+    {
+      name: 'name',
+      title: 'Name',
+      type: 'string',
+    },
+    {
+      name: 'company',
+      title: 'Company',
+      type: 'string',
+    },
+    {
+      name: 'imageurl',
+      title: 'Imageurl',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: 'feedback',
+      title: 'Feedback',
+      type: 'string',
+    },
+  ],
+}
